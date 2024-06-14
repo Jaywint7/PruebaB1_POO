@@ -19,7 +19,7 @@ class rutNormal extends Servicio {
 
     @Override
     public void costoPasaje(){
-        monto = 0+costoNormal+costoMaletaext+costoNormal;
+        monto = 0+costoNormal+costoMaletaext;
         System.out.println("La cantidad total del viaje Normal es de: "+getMonto());
     }
 

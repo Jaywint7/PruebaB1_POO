@@ -17,7 +17,7 @@ class rutVip extends Servicio {
 
     @Override
     public void costoPasaje(){
-        monto = 0+ (costoVip*0.3)+costoVip +costoMaletaext+ costoVip;
+        monto = 0+ (costoVip*0.3)+costoVip +costoMaletaext;
         System.out.println("La cantidad total del viaje VIP es de: "+getMonto());
     }
 
@@ -26,8 +26,5 @@ class rutVip extends Servicio {
         System.out.println("Los datos del viaje VIP son: ");
         super.datosCLiente();
         System.out.println("Num Maletas: "+maleta+"\n"+"Maleta Adicional: "+ maletaAdd+"\n"+"Costo Maleta Adicional: "+costoMaletaext+"\n"+"Costo Viaje Normal: "+ costoVip +"\n"+"Ruta: "+ruta);
-        System.out.println("________________________________");
-        costoPasaje();
-        System.out.println("\n");
     }
 }
